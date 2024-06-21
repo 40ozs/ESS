@@ -1,4 +1,4 @@
-```bash
+#!/bin/bash
 ### Install gpg key
 
 wget -O - https://repo.fortinet.com/repo/forticlient/7.4/ubuntu22/DEB-GPG-KEY | gpg --dearmor | sudo tee /usr/share/keyrings/repo.fortinet.com.gpg
@@ -14,4 +14,4 @@ sudo apt-get update
 #### Install FortiClient
 
 sudo apt install forticlient
-```
+
